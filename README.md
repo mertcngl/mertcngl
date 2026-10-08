@@ -3,8 +3,8 @@
 # Mert Canoğlu
 **Bilgisayar Mühendisliği Öğrencisi | Gebze Teknik Üniversitesi**
 
-Sistem programlama, algoritmalar ve nesne yönelimli yazılım mimarileri üzerine çalışmalar yapıyorum.  
-Düşük seviyeli bellek yönetimi, veri yapıları ve modüler yazılım geliştirme odak noktalarım arasında yer almaktadır.
+Sistem programlama, nesne yönelimli mimariler ve algoritmik modelleme üzerine çalışmalar yapıyorum.  
+Düşük seviyeli bellek yönetimi, generic programlama, veri yapıları ve modüler yazılım tasarımı odak alanlarım arasındadır.
 
 [GitHub](https://github.com/mertcngl) • [LinkedIn](https://linkedin.com) • [E-posta](mailto:mertcanoglu@example.com)
 
@@ -15,8 +15,8 @@ Düşük seviyeli bellek yönetimi, veri yapıları ve modüler yazılım geliş
 ### Hakkımda
 
 - **Kurum:** Gebze Teknik Üniversitesi, Bilgisayar Mühendisliği Bölümü
-- **Odak Alanları:** Düşük seviyeli sistem programlama, algoritmalar, veri yapıları ve nesne yönelimli analiz & tasarım
-- **Çalışma Alanları:** C ve C++ ile sistem ve bellek mimarileri, Java ile nesne yönelimli modelleme, Python ile otomasyon ve veri işleme
+- **Odak Alanları:** Düşük seviyeli sistem programlama, nesne yönelimli yazılım tasarımı, algoritmalar ve veri yapıları
+- **Teknik Alanlar:** C ve C++ ile sistem ve bellek mimarileri, generic programlama (templates), Java ile nesne yönelimli modelleme, Python ile otomasyon
 - **Hedef:** Verimli, sürdürülebilir ve yüksek performanslı yazılım mimarileri inşa etmek
 
 ---
@@ -27,23 +27,23 @@ Düşük seviyeli bellek yönetimi, veri yapıları ve modüler yazılım geliş
 `C` • `C++` • `Java` • `Python`
 
 **Geliştirme Araçları & Ortamlar**  
-`Git` • `GitHub` • `Linux` • `VS Code` • `Make / GCC`
+`Git` • `GitHub` • `Linux` • `VS Code` • `Make / GCC / G++`
 
 ---
 
-### Projeler
+### Projeler ve Çalışmalar
 
 <table>
   <thead>
     <tr>
-      <th width="50%">Proje</th>
-      <th width="50%">Açıklama</th>
+      <th width="45%">Depo / Proje</th>
+      <th width="55%">Kapsam & Mimari</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <strong><a href="https://github.com/mertcngl/student-information-system">Student Information System</a></strong><br />
+        <strong><a href="https://github.com/mertcngl/student-information-system">student-information-system</a></strong><br />
         <sub>C • Modüler Mimari • CSV Motoru</sub>
       </td>
       <td>
@@ -52,29 +52,25 @@ Düşük seviyeli bellek yönetimi, veri yapıları ve modüler yazılım geliş
     </tr>
     <tr>
       <td>
-        <strong><a href="https://github.com/mertcngl/c-projects">Minesweeper Game</a></strong><br />
-        <sub>C • Veri Yapıları • Rekürsif Algoritmalar</sub>
+        <strong><a href="https://github.com/mertcngl/cpp-oop-problem-sessions">cpp-oop-problem-sessions</a></strong><br />
+        <sub>C++ • OOP • Şablonlar & Bellek Yönetimi</sub>
       </td>
       <td>
-        Terminal tabanlı Mayın Tarlası uygulaması. Dinamik matris yönetimi, özyinelemeli hücre açma fonksiyonları ve hamle geçmişi takibi için yığın (stack) mekanizması barındırır.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <strong><a href="https://github.com/mertcngl/c-projects">Battleship Game</a></strong><br />
-        <sub>C • 2D Matris Mantığı • Dosya I/O</sub>
-      </td>
-      <td>
-        İki boyutlu ızgara üzerinde filo yerleşimi, koordinat atış doğrulaması ve tüm oyun adımlarını kalıcı dosyalara kaydeden loglama altyapısına sahip strateji oyunu.
+        GTÜ CSE 241 Nesne Yönelimli Programlama dersi problem çözümleri. Sınıf hiyerarşileri, operatör aşırı yükleme, dinamik bellek ve Rule of Three, C++ generic şablonlar (Set container), döngüsel bağlı liste ve istisna yönetimi (stack unwinding).
       </td>
     </tr>
     <tr>
       <td>
-        <strong><a href="https://github.com/mertcngl/c-projects">Rocket Trajectory Simulator</a></strong><br />
-        <sub>C • Balistik Modelleme • Veri Kaydı</sub>
+        <strong><a href="https://github.com/mertcngl/c-projects">c-projects</a></strong><br />
+        <sub>C • Veri Yapıları • Oyunlar & Simülasyon</sub>
       </td>
       <td>
-        Yerçekimi, açı ve fırlatma hızı parametreleriyle roket yörüngesini hesaplayan, zaman serisi balistik konum analizi sunan matematiksel simülasyon aracı.
+        C dili ile geliştirilmiş algoritmik araçlar ve simülasyonlar:
+        <ul>
+          <li><strong>Minesweeper:</strong> Özyinelemeli hücre açma ve yığın (stack) tabanlı hamle geçmişi.</li>
+          <li><strong>Battleship:</strong> 2D ızgara yönetimi ve dosya tabanlı loglama altyapısı.</li>
+          <li><strong>Rocket Trajectory:</strong> Balistik hareket ve sayısal yörünge simülasyonu.</li>
+        </ul>
       </td>
     </tr>
   </tbody>
