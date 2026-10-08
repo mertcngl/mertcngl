@@ -1,75 +1,87 @@
 <div align="center">
 
 # Mert Canoğlu
-**Bilgisayar Mühendisliği Öğrencisi | Gebze Teknik Üniversitesi**
+**Computer Engineering Student | Gebze Technical University**
 
-Sistem programlama, nesne yönelimli mimariler ve algoritmik modelleme üzerine çalışmalar yapıyorum.  
-Düşük seviyeli bellek yönetimi, generic programlama, veri yapıları ve modüler yazılım tasarımı odak alanlarım arasındadır.
+Focused on low-level systems programming, distributed network architectures, object-oriented design, and algorithmic problem-solving.  
+Passionate about building resilient, modular software systems with efficient memory utilization and high-performance design patterns.
 
-[GitHub](https://github.com/mertcngl) • [LinkedIn](https://linkedin.com) • [E-posta](mailto:mertcanoglu@example.com)
+[GitHub](https://github.com/mertcngl) • [LinkedIn](https://linkedin.com) • [Email](mailto:mertcanoglu@example.com)
 
 </div>
 
 ---
 
-### Hakkımda
+### About Me
 
-- **Kurum:** Gebze Teknik Üniversitesi, Bilgisayar Mühendisliği Bölümü
-- **Odak Alanları:** Düşük seviyeli sistem programlama, nesne yönelimli yazılım tasarımı, algoritmalar ve veri yapıları
-- **Teknik Alanlar:** C ve C++ ile sistem ve bellek mimarileri, generic programlama (templates), Java ile nesne yönelimli modelleme, Python ile otomasyon
-- **Hedef:** Verimli, sürdürülebilir ve yüksek performanslı yazılım mimarileri inşa etmek
+- **Institution:** Gebze Technical University (GTU), Department of Computer Engineering
+- **Focus Areas:** Low-level systems programming, POSIX network socket architectures, object-oriented design principles, algorithms, and data structures
+- **Technical Competencies:**
+  - **C:** Socket programming (`select()` I/O multiplexing), memory management, modular architectures, and POSIX signal handling
+  - **C++:** Generic programming (templates), Rule of Three resource management, operator overloading, and STL
+  - **Java & Python:** Object-oriented modeling, automated scripting, and data pipelines
+- **Objective:** Developing robust, maintainable, and high-performance software systems
 
 ---
 
-### Yetkinlikler
+### Core Competencies
 
-**Programlama Dilleri**  
+**Languages**  
 `C` • `C++` • `Java` • `Python`
 
-**Geliştirme Araçları & Ortamlar**  
-`Git` • `GitHub` • `Linux` • `VS Code` • `Make / GCC / G++`
+**Tools & Environment**  
+`Git` • `GitHub` • `Linux / POSIX` • `VS Code` • `Make / GCC / G++`
 
 ---
 
-### Projeler ve Çalışmalar
+### Featured Projects
 
 <table>
   <thead>
     <tr>
-      <th width="45%">Depo / Proje</th>
-      <th width="55%">Kapsam & Mimari</th>
+      <th width="40%">Repository</th>
+      <th width="60%">Architecture & Key Highlights</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <strong><a href="https://github.com/mertcngl/student-information-system">student-information-system</a></strong><br />
-        <sub>C • Modüler Mimari • CSV Motoru</sub>
+        <strong><a href="https://github.com/mertcngl/magic-academy">magic-academy</a></strong><br />
+        <sub>C • Distributed TCP Networking • POSIX Multiplexing</sub>
       </td>
       <td>
-        Öğrenci, öğretim görevlisi, ders kayıt ve notlandırma süreçlerini yöneten kapsamlı konsol uygulaması. Ön koşul doğrulaması, kaskad silme mekanizması, dinamik GPA hesaplama ve otomatik veri yedekleme mimarisi içerir.
+        Distributed client-server simulation and network game engine in C. Features a single-threaded event loop using <code>select()</code> I/O multiplexing, custom line-delimited wire protocol with partial-read accumulators, role-based client state tracking (Wizard/Professor), and signal-safe socket transfer routines.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong><a href="https://github.com/mertcngl/student-information-system">student-information-system</a></strong><br />
+        <sub>C • Modular Architecture • CSV Database Engine</sub>
+      </td>
+      <td>
+        Comprehensive console-based university management system. Implements referential integrity validation, cascade deletion, prerequisite checks, GPA calculation, transaction safety, and automated state backups using CSV flat files.
       </td>
     </tr>
     <tr>
       <td>
         <strong><a href="https://github.com/mertcngl/cpp-oop-problem-sessions">cpp-oop-problem-sessions</a></strong><br />
-        <sub>C++ • OOP • Şablonlar & Bellek Yönetimi</sub>
+        <sub>C++ • Object-Oriented Design • Memory Safety</sub>
       </td>
       <td>
-        GTÜ CSE 241 Nesne Yönelimli Programlama dersi problem çözümleri. Sınıf hiyerarşileri, operatör aşırı yükleme, dinamik bellek ve Rule of Three, C++ generic şablonlar (Set container), döngüsel bağlı liste ve istisna yönetimi (stack unwinding).
+        Curriculum-aligned implementations for CSE 241 Object-Oriented Programming. Demonstrates class hierarchies, operator overloading, Rule of Three deep copying, generic templates (custom dynamic Set container), circular linked lists, and recursive exception handling.
       </td>
     </tr>
     <tr>
       <td>
         <strong><a href="https://github.com/mertcngl/c-projects">c-projects</a></strong><br />
-        <sub>C • Veri Yapıları • Oyunlar & Simülasyon</sub>
+        <sub>C • Algorithms • Games & Physics Simulation</sub>
       </td>
       <td>
-        C dili ile geliştirilmiş algoritmik araçlar ve simülasyonlar:
+        A collection of low-level C projects covering data structures and mathematical models:
         <ul>
-          <li><strong>Minesweeper:</strong> Özyinelemeli hücre açma ve yığın (stack) tabanlı hamle geçmişi.</li>
-          <li><strong>Battleship:</strong> 2D ızgara yönetimi ve dosya tabanlı loglama altyapısı.</li>
-          <li><strong>Rocket Trajectory:</strong> Balistik hareket ve sayısal yörünge simülasyonu.</li>
+          <li><strong>Minesweeper:</strong> Recursive flood-fill cell revealing and stack-based move tracking.</li>
+          <li><strong>Battleship:</strong> 2D matrix fleet placement, coordinate validation, and file logging.</li>
+          <li><strong>Rocket Trajectory:</strong> Numerical ballistic simulation and kinematic motion modeling.</li>
         </ul>
       </td>
     </tr>
@@ -78,7 +90,7 @@ Düşük seviyeli bellek yönetimi, generic programlama, veri yapıları ve mod�
 
 ---
 
-### GitHub İstatistikleri
+### GitHub Metrics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mertcngl&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
